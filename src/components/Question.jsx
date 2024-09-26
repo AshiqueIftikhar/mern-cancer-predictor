@@ -38,6 +38,15 @@ const Option = styled.button`
     }
 `;
 
+const QuestionArea = styled.p`
+  font-size: 48px;
+  font-weight:bold;
+
+  @media screen and (max-width: 470px){
+    font-size: 24px;
+  }
+`
+
 const Question = () => {
 
   let [index, setIndex] = useState(0);
@@ -65,7 +74,7 @@ const Question = () => {
         :
         <>
           <img src={quest.img} alt="image" width={200} style={{border:"2px solid white", borderRadius:20}} />
-          <h1>{quest.question}</h1>
+          <QuestionArea>{quest.question}</QuestionArea>
           <Options>
           <Option onClick={(e)=>{checkAns(e, 1)}}>{quest.option1}</Option>
           <Option onClick={(e)=>{checkAns(e, 2)}}>{quest.option2}</Option>

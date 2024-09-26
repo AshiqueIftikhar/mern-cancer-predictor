@@ -36,7 +36,6 @@ margin-bottom: 2em;
 @media screen and (max-width: 470px){
   border:2px solid white;
   border-radius: 10px;
-  
 }
 `
 const Badge = styled.span`
