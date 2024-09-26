@@ -11,6 +11,41 @@ const btnCSS = css`
     margin-top: 2em;
 `;
 
+const MainBox = styled.div`
+  display: block; 
+  flex-direction: row;
+  justify-content:space-around;
+  margin-top:3em; 
+  border:none;
+  border-radius:10px;
+  line-height:2px;
+
+  @media screen and (min-width: 470px){
+    display: flex;
+    border:2px solid white;
+  } 
+`;
+
+const SubBox = styled.div`
+text-align: left; 
+line-height: 2px;
+padding-left: 1em;
+padding-bottom:.7em;
+margin-bottom: 2em;
+
+@media screen and (max-width: 470px){
+  border:2px solid white;
+  border-radius: 10px;
+  
+}
+`
+const Badge = styled.span`
+  background:white;
+  color:black;
+  padding:1px 3px; 
+  border-radius:10px;
+  font-weight: bold;
+`
 
 const Start = ({props}) => {
   const startQuestion = () => props(true)
@@ -22,24 +57,24 @@ const Start = ({props}) => {
           <h4>We will ask you some questions to determine if you have any risk of cancer</h4>
           <Button onClick={startQuestion} css={btnCSS}>Begin</Button>
 
-          <div style={{display: 'flex', justifyContent:"space-around", marginTop:"3em", border:"2px solid white", borderRadius:"10px"}}>
-            <div style={{textAlign:"left", lineHeight:"10px", marginTop:"1em"}}>
-              <h2>Supervisor</h2>
-              <h4 style={{marginTop:"2em"}}>Arpita Chakrabaorty</h4>
+          <MainBox>
+            <SubBox>
+              <h3 style={{marginBottom:"1.5em", marginTop:"1.5em"}}>Supervisor</h3>
+              <h4>Arpita Chakrabaorty</h4>
               <p>Lecturer, Dept. Of CSE</p>
-            </div>
+            </SubBox>
 
-            <div style={{marginTop:"1em", display:"block",  }}>
-                <div style={{textAlign:"left", lineHeight:"2px"}}>
+            <SubBox>
+                <div style={{marginBottom: "2em"}}>
                   <h4>Aklimatul Jannat Akhi</h4>
-                  <p>ID-666-53-05</p>
+                  <p><Badge>ID-666-53-05</Badge></p>
                 </div>
-                <div style={{textAlign:"left", lineHeight:"2px", marginTop:"2em"}}>
+                <div>
                   <h4>Rubina Akter</h4>
-                  <p>ID-666-53-22</p>
+                  <p><Badge>ID-666-53-22</Badge></p>
                 </div>
-            </div>
-          </div>
+            </SubBox>
+          </MainBox>
       </Intro>
   )
 }
