@@ -30,12 +30,12 @@ const SubBox = styled.div`
 text-align: left; 
 line-height: 2px;
 padding-left: 1em;
-padding-bottom:.7em;
-margin-bottom: 2em;
+margin-bottom: 1em;
 
 @media screen and (max-width: 470px){
   border:2px solid white;
   border-radius: 10px;
+  padding-bottom:.7em;
 }
 `
 const Badge = styled.span`
@@ -53,7 +53,7 @@ const Start = ({props}) => {
       <Intro>
         <img src="https://southern.ac.bd/wp-content/uploads/2024/06/logo-1.svg" alt="" width="200px"/>
           <h1>SUB Heart Disease Predictor</h1>
-          <h4>We will ask you some questions to determine if you have any risk of cancer</h4>
+          <h4>We will ask you some questions to determine if you have any risk of heart disease</h4>
           <Button onClick={startQuestion} css={btnCSS}>Begin</Button>
 
           <MainBox>

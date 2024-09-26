@@ -69,7 +69,7 @@ const Question = () => {
     <div>
     
       {
-        index === 8 ?
+        index === 9 ?
         <End res={result} />
         :
         <>

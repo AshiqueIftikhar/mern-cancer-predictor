@@ -31,7 +31,7 @@ const End = ({res}) => {
                 width="100px"
             />
             <Points>
-                Your risk of cancer is <span style={{ fontSize: '48px' }}>{res}%</span>
+                Your risk of heart disease is <span style={{ fontSize: '48px' }}>{res}%</span>
             </Points>
             <Button onClick={refreshPage}>Check Again</Button>
             </>
