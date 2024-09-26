@@ -1,15 +1,24 @@
 export const data = [
     {
-        question: "Do you smoke regular?",
+        question: "Do you smoke regularly? At least one cigarette per day?",
         option1: "Yes",
         option2:"No",
         ans: 1,
-        val: 12,
+        val: 15,
         img: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWtibXRkOXkxd3RocDV2aTJ5enprOTNlZnpjbmF6dXBkNGU3OHA5NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT0xeGLRVwmUZpLsBy/giphy.webp"
 
     },
     {
-        question: "Do you do regular excercise?",
+        question: "Do you smoke at least one cigarette per month?",
+        option1: "Yes",
+        option2:"No",
+        ans: 1,
+        val: 5,
+        img: "https://media1.tenor.com/m/NwmDTiGGyGAAAAAC/detective.gif"
+
+    },
+    {
+        question: "Do you do regular exercise, such as Gym, Running, cycling etc?",
         option1: "Yes",
         option2:"No",
         ans: 2,
@@ -22,7 +31,7 @@ export const data = [
         option1: "Yes",
         option2:"No",
         ans: 1,
-        val: 12,
+        val: 10,
         img: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExenY2dnZhZXA5aWRhbGUyNW8wd3VobnN4NHQzM294cHRtaDN3bTQ4diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VJfZ1qYFbYv6lTL042/giphy.webp"
 
     },
@@ -36,25 +45,25 @@ export const data = [
 
     },
     {
-        question: "Do your family members have any heart disease history?",
-        option1: "Yes",
-        option2:"No",
-        ans: 1,
-        val: 12,
-        img: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGFieDFnZ2pmdW1qbW00dGloYzZvZjd4ODN2aDd5ZmN6eGc0MWg5OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dv7MwBo7jrqwi6UXyY/giphy.webp"
-
-    },
-    {
-        question: "Do you drink Alcohol?",
+        question: "Do your parents have any heart disease history?",
         option1: "Yes",
         option2:"No",
         ans: 1,
         val: 10,
+        img: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGFieDFnZ2pmdW1qbW00dGloYzZvZjd4ODN2aDd5ZmN6eGc0MWg5OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dv7MwBo7jrqwi6UXyY/giphy.webp"
+
+    },
+    {
+        question: "Do you drink alcohol at least once a month?",
+        option1: "Yes",
+        option2:"No",
+        ans: 1,
+        val: 7,
         img: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXJudnQ0emNmMDcyczdxNDVldmRibTdzNXZoZTVxY2NycGxvOThnayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/536KIvytx4AO4/giphy.webp"
 
     },
     {
-        question: "Do you eat red meat once a week?",
+        question: "Do you eat red meat at least once a week?",
         option1: "Yes",
         option2:"No",
         ans: 1,
@@ -63,11 +72,11 @@ export const data = [
 
     },
     {
-        question: "Do you walk for at least 15 mins after having meal?",
+        question: "Do you walk for at least 10 mins after having meal?",
         option1: "Yes",
         option2:"No",
         ans: 2,
-        val: 8,
+        val: 5,
         img:"https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXYwZGRmZjh6ZWR5YjczZ2sxeXNjdndpMWZzcm03N3N3eTZuenNzbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vOFivrEsDihZq2CPMl/giphy.webp"
 
     }
