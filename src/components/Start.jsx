@@ -58,12 +58,13 @@ const Start = ({props}) => {
 
           <MainBox>
             <SubBox>
-              <h3 style={{marginBottom:"1.5em", marginTop:"1.5em"}}>Supervisor</h3>
+              <h3 style={{marginBottom:"1.5em", marginTop:"1.5em"}}><span style={{border:"1px solid white", borderRadius:"10px", padding:"0px 5px 2px 5px"}}>Supervisor</span></h3>
               <h4>Arpita Chakrabaorty</h4>
               <p>Lecturer, Dept. Of CSE</p>
             </SubBox>
 
             <SubBox>
+                <h3 style={{marginBottom:"1.5em", marginTop:"1.5em"}}><span style={{border:"1px solid white", borderRadius:"10px", padding:"0px 5px 2px 5px"}}>Submitted By</span></h3>
                 <div style={{marginBottom: "2em"}}>
                   <h4>Aklimatul Jannat Akhi</h4>
                   <p><Badge>ID-666-53-05</Badge></p>
